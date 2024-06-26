@@ -5,12 +5,20 @@ def main():
     """
     Code Your Program here
     """
-
-    print(f'The greates number is {maxnum}')
+    list = [num1, num2, num3]
+    
+    maxinum = list[0]
+    
+    if (num2 > maxinum):
+        maxinum = num2
+    elif (num3 > maxinum):
+        maxinum = num3
+    
+    print(f'The greates number is {maxinum}')
     ########################################
     # Do not delete the return statement
     ########################################
-    return maxnum
+    return maxinum
 
 
 if __name__ == '__main__':
