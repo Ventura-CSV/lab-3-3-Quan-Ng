@@ -7,18 +7,18 @@ def main():
     """
     list = [num1, num2, num3]
     
-    maxinum = list[0]
+    maxnum = list[0]
     
-    if (num2 > maxinum):
-        maxinum = num2
-    elif (num3 > maxinum):
-        maxinum = num3
+    if (num2 > maxnum):
+        maxnum = num2
+    elif (num3 > maxnum):
+        maxnum = num3
     
-    print(f'The greates number is {maxinum}')
+    print(f'The greates number is {maxnum}')
     ########################################
     # Do not delete the return statement
     ########################################
-    return maxinum
+    return maxnum
 
 
 if __name__ == '__main__':
