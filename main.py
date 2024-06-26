@@ -21,5 +21,4 @@ def main():
     return maxnum
 
 
-if __name__ == '__main__':
-    main()
+
