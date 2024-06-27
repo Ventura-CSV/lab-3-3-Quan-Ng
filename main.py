@@ -5,9 +5,10 @@ def main():
     """
     Code Your Program here
     """
-    list = [num1, num2, num3]
+    # list = [num1, num2, num3]
     
-    maxnum = list[0]
+    # maxnum = list[0]
+    maxnum = num1
     
     if (num2 > maxnum):
         maxnum = num2
