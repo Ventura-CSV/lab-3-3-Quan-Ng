@@ -11,7 +11,8 @@ def main():
     
     if (num2 > maxnum):
         maxnum = num2
-    elif (num3 > maxnum):
+    
+    if (num3 > maxnum):
         maxnum = num3
     
     print(f'The greates number is {maxnum}')
